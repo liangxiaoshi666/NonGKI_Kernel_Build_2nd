@@ -10,6 +10,9 @@ runs:
           cd $GITHUB_WORKSPACE/device_kernel/
           cp /tmp/Patches/Droidspaces/droidspaces.config ./arch/"${{ env.KERNEL_ARCH }}"/configs/
 
+          echo "CONFIG_NETFILTER=y" >> ./arch/"${{ env.KERNEL_ARCH }}"/configs/droidspaces.config
+          echo "CONFIG_NETFILTER_XTABLES=y" >> ./arch/"${{ env.KERNEL_ARCH }}"/configs/droidspaces.config
+
           cgroup_patch(){
             cp /tmp/Patches/Droidspaces/fix_restore_cgroup_file_prefix_handling.cocci ./
             spatch --sp-file fix_restore_cgroup_file_prefix_handling.cocci --in-place kernel/$CGROUP_FILE
