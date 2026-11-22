@@ -24,7 +24,7 @@ env:
   GCC_32_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9.git"
   GCC_32_BRANCH : "android12L-release"
 
-  DEFCONFIG_SOURCE: "https://raw.githubusercontent.com/liangxiaoshi666/kernel_xiaomi_clover_4.19/refs/heads/lineage-23.1/arch/arm64/configs/vendor/xiaomi/sdm660-perf_defconfig"
+  DEFCONFIG_SOURCE: "https://raw.githubusercontent.com/liangxiaoshi666/kernel_xiaomi_clover_4.19/refs/heads/lineage-23.1/arch/arm64/configs/vendor/sdm660-perf_defconfig"
   DEFCONFIG_NAME : "sdm660_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
