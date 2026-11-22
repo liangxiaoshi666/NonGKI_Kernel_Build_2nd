@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: "https://raw.githubusercontent.com/liangxiaoshi666/kernel_xiaomi_clover_4.19/refs/heads/lineage-23.1/arch/arm64/configs/vendor/sdm660-perf_defconfig"
-  DEFCONFIG_NAME : "sdm660_defconfig"
+  DEFCONFIG_NAME : "sdm660-perf_defconfig
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
